@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+body, h1, p {
+  margin:0;
+}
+
+body {
+  background:rgb(59, 84, 94);
+
+}
+
+h1 {
+  color: #fff;
+  letter-spacing:5px;
+  text-align:center;
+  margin-top:40px;
+  margin-bottom:30px;
+}
+
+
+.user {
+ background:rgb(196, 222, 233);
+ color:rgb(97, 131, 145);
+ width: 600px;
+ margin: 0 auto;
+ padding-bottom:20px;
+ border-bottom: 5px solid #fff;
+ margin-bottom: 30px;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+
+.user:hover {
+  opacity:0.8;
+}
+
+.password {
+ background:rgb(196, 222, 233);
+ color:rgb(97, 131, 145);
+ width: 600px;
+ margin: 0 auto;
+ padding-bottom:20px;
+ border-bottom: 5px solid #fff;
+ border-radius: 4px;
+ margin-bottom: 30px;
+ cursor:pointer;
+}
+
+.password:hover {
+  opacity: 0.8;
+}
+
+.login {
+  background:skyblue;
+  width:800px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius:30px;
+  font-weight:bold;
+  text-decoration: none;
+  padding:15px 0;
+  margin-bottom: 30px;
+  cursor:pointer;
+}
+
+.login a {
+  text-decoration: none;
+  color:#fff
+}
+
+.login:hover {
+  opacity: 0.8;
+}
+
+.account {
+  color:#fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.account:hover {
+  opacity: 0.8;
+}
+
+
